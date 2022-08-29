@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar container">
+        <img src="images/logo.svg" alt="logo">
+        <nav class="novigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#main" class="nav-link active">Главная</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Проекты</a></li>
+                <li class="nav-item"><a href="#developer" class="nav-link">Обо мне</a></li>
+                <li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- /.navbar -->
+
+    <header class="header container" id="main">
+        <img src="images/avatar2.png" alt="" class="header-photo">
+        <!-- /.header-photo -->
+        <div class="header-text">
+            <strong class="header-strong">Привет 👋</strong>
+            <h1 class="header-heading"><span class="header-primary">Я фронтенд-разработчик и веб-дизайнер</span> <br>
+                Меня зовут Чекменев Роман и я делаю сайты для людей и компаний
+            </h1>
+            <div class="header-links">
+                <ul class="social-list">
+                    <li class="social-item"><a href="" class="social-link"><img src="images/Icons/linkedin.svg" alt=""
+                                class="social-logo"></a>
+                    </li>
+                    <li class="social-item"><a href="" class="social-link"><img src="images/Icons/twitter.svg" alt=""
+                                class="social-logo"></a>
+                    </li>
+                    <li class="social-item"><a href="" class="social-link"><img src="images/Icons/github.svg" alt=""
+                                class="social-logo"></a>
+                    </li>
+                    <li class="social-item"><a href="" class="social-link"><img src="images/Icons/stackoverflow.svg"
+                                alt="" class="social-logo"></a>
+                    </li>
+                    <li class="social-item"><a href="" class="social-link"><img src="images/Icons/youtube.svg" alt=""
+                                class="social-logo"></a>
+                    </li>
+                </ul>
+                <a href="" class="cv-donload" download>
+                    <img src="images/Icons/download.svg" alt="" class="cv-icon">
+                    <span class="cv-text">Скачать резюме</span>
+                </a>
+            </div>
+            <!-- /.header-links -->
+        </div>
+        <!-- /.header-text -->
+    </header>
+    <!-- /.header -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-heading">Последние проекты</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/portfolio/image 1.jpg" alt="" class="card-image">
+                    <div class="card-text-wrapper">
+                        <h3 class="card-title">Мобильное приложение</h3>
+                        <ul class="tags">
+                            <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+                            <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+                            <li class="tags-item"><a href="#" class="tag">JavaScript</a></li>
+                            <li class="tags-item"><a href="#" class="tag">Git</a></li>
+                            <li class="tags-item"><a href="#" class="tag">Vitejs</a></li>
+                        </ul>
+                        <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="card-buttons">
+                            <a href="#" class="card-button"><img src="/images/Icons/code.svg" alt=""
+                                    class="card-button-icon">
+                                <span class="card-button-text">Код</span></a>
+                            <a href="#" class="card-button"><img src="/images/Icons/check.svg" alt=""
+                                    class="card-button-icon">
+                                <span class="card-button-text">Демо</span></a>
+                        </div>
+                    </div>
+                    <!-- /.card-text-wrapper -->
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img src="images/portfolio/image 2.jpg" alt="" class="card-image">
+                    <div class="card-text-wrapper">
+                        <h3 class="card-title">Одностраничный промо-сайт</h3>
+                        <ul class="tags">
+                            <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+                            <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+                        </ul>
+                        <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="card-buttons">
+                            <a href="#" class="card-button"><img src="/images/Icons/code.svg" alt=""
+                                    class="card-button-icon">
+                                <span class="card-button-text">Код</span></a>
+                            <a href="#" class="card-button"><img src="/images/Icons/check.svg" alt=""
+                                    class="card-button-icon">
+                                <span class="card-button-text">Демо</span></a>
+                        </div>
+                    </div>
+                    <!-- /.card-text-wrapper -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.cards -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.portfolio -->
+    <section class="developer container" id="developer">
+        <img src="images/jenot.jpg" alt="" class="developer-photo">
+        <div class="developer-about">
+            <span class="developer-hello">Рад вас видеть</span>
+            <h2 class="developer-title">Я Чекменев Роман</h2>
+            <p class="developer-text">Я разрабатываю сайты для людей и компаний. Делаю всё сам: составляю прототип,
+                дизайн-макет, пишу код.
+            </p>
+            <span class="motto">Код, Дизайн, Обучение</span>
+            <p class="developer-text">Могу собрать страницу для вашей компании, даже если запускать её нужно уже
+                завтра. Из инструментов есть: Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
+            </p>
+            <img src="/images/sign.png" alt="" class="developer-sign">
+        </div>
+        <!-- /.developer-about -->
+    </section>
+    <!-- /.developer container -->
+    <section class="skills container" id="skills">
+        <h2 class="skills-title">Работаю с разными языками и инструментами</h2>
+        <ul class="tags">
+            <li class="tags-item "><a href="#" class="tag tags3">HTML</a></li>
+            <li class="tags-item "><a href="#" class="tag tags3">CSS</a></li>
+            <li class="tags-item "><a href="#" class="tag tags3">JavaScript</a></li>
+            <li class="tags-item "><a href="#" class="tag tags3">Wordpress</a></li>
+            <li class="tags-item "><a href="#" class="tag tags3">npm</a></li>
+            <li class="tags-item "><a href="#" class="tag tags3">Reactjs</a></li>
+            <li class="tags-item "><a href="#" class="tag tags3">Nextjs</a></li>
+            <li class="tags-item "><a href="#" class="tag tags3">UI Design</a></li>
+            <li class="tags-item "><a href="#" class="tag tags3">SASS</a></li>
+        </ul>
+    </section>
+    <!-- /.skills -->
+    <section class="feedback" id="feedback">
+        <img src="/images/hand.png" alt="" class="feedback-hand">
+        <div class="form-container">
+            <h2 class="feedback-title">Готов обсудить проект...</h2>
+            <form action="#" class="form">
+                <div class="input-group">
+                    <label class="input-label" for="username">имя</label>
+                    <input id="username" type="text" class="input">
+                </div>
+                <!-- /.input-group -->
+                <div class="input-group">
+                    <label class="input-label" for="userEmail">Email</label>
+                    <input id="userEmail" type="text" class="input">
+                </div>
+                <!-- /.input-group -->
+                <div class="input-group">
+                    <label class="input-label" for="userEmail">Сообщение</label>
+                    <textarea id="uresMessage" cols="30" rows="30" class="input textarea"></textarea>
+                </div>
+                <!-- /.input-group -->
+                <div class="button-group">
+                    <button type="submit" class="submit-button" download>
+                        <img src="/images/Icons/sendsvg.svg" alt="" class="cv-icon">
+                        <span class="cv-text">Отправить</span>
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <!-- /.feedback -->
+</body>
+
+</html>
