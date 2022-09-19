@@ -122,7 +122,7 @@
     height: 700px;
 }
 .info-title{
-    margin-left: 44%;
+    /*margin-left: 44%;*/
     padding-bottom: 5px;
     padding-top: 40px;
     font-weight: 400;
@@ -132,25 +132,23 @@
     color: #263244;
 }
 .info-cherta{
-    margin-left: 43%;
     width: 150px;
     height: 6px;
     margin-top: 10px;
 }
 .info-icon{
-    width: 199px;
-    height: 202px;
-    margin-left: 41%;
     margin-top: 30px;
+    text-align: center;
 }
 .info-text{
     width: 500px;
-    margin-left: 34%;
     margin-top: 20px;
     font-weight: 400;
     font-size: 17px;
     line-height: 17px;
     color: #3F495A;
+    margin: 0 auto;
+    padding-left: 40px;
 }
 .info-p{
     margin-bottom: 20px;
@@ -159,7 +157,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 42%;
     margin-top: 20px;
     border: 3px solid #6F707E;
     width: 180px;
@@ -172,6 +169,8 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 .info-button{
     padding-left: 5px;
@@ -191,7 +190,6 @@
     line-height: 30px;
     letter-spacing: -2px;
     color: #263244;
-    margin-left: 42%;
     padding-bottom: 5px;
 }
 .skills-cards{
@@ -222,9 +220,9 @@
     color: #3F495A;
     margin-right: 10px;
 }
-#CEO{
+/*#CEO{
     margin-left: 35px;
-}
+}*/
 .skills-TITLES{
     margin-bottom: 150px;
 }
@@ -236,17 +234,19 @@
     line-height: 30px;
     letter-spacing: -2px;
     color: #263244;
-    margin-left: 45%;
     padding-bottom: 5px;
 }
 .keys-text{
+    width: 500px;
     font-weight: 400;
     font-size: 17px;
     line-height: 21px;
     color: #3F495A;
     margin-top: 50px;
-    margin-left: 20%;
+    margin: 0 auto;
+    text-align: center;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 .keys-photo{
     margin-left: 10%;
@@ -327,11 +327,9 @@
     line-height: 30px;
     letter-spacing: -2px;
     color: #263244;
-    margin-left: 38%;
     padding-bottom: 5px;
 }
 .prise-card{
-    margin-left: 20%;
     margin-top: 20px;
 }
 .prise-card-title{
@@ -361,12 +359,12 @@
 }
 .prise-term{
     display: flex;
-    margin-left: 20%;
+    margin-left: 5%;
     margin-top: 40px;
 }
 .prise-cost{
     display: flex;
-    margin-left: 20%;
+    margin-left: 5%;
     margin-top: 25px;
 }
 .term-time{
@@ -374,24 +372,26 @@
     font-size: 21px;
     line-height: 24px;
     color: #1C2534;
-    width: 100px;
+    width: 120px;
 }
 .cost-time{
     font-weight: 400;
     font-size: 21px;
     line-height: 24px;
     color: #1C2534;
-    width: 100px;
+    width: 120px;
 }
 .term-exactly{
-    margin-left: 80%;
+    margin-left: 1100px;
+    margin-right: 10px;
     font-weight: 400;
     font-size: 30px;
     line-height: 34px;
     color: #1C2534;
 }
 .cost-exactly{
-    margin-left: 80%;
+    margin-left: 1100px;
+    margin-right: 10px;
     font-weight: 400;
     font-size: 30px;
     line-height: 34px;
@@ -410,14 +410,14 @@
     line-height: 30px;
     letter-spacing: -2px;
     color: #263244;
-    margin-left: 37%;
     padding-bottom: 5px;
 }
 .statistic-cards{
     display: flex;
-    margin-left: 20%;
+    margin-left: 50px;
     margin-top: 40px;
     align-items: center;
+    justify-content: space-between;
     text-align: center;
 }
 .statistics-card{
@@ -448,11 +448,9 @@
     line-height: 30px;
     letter-spacing: -2px;
     color: #263244;
-    margin-left: 44%;
     padding-bottom: 5px;
 }
 .reviews-icon{
-    margin-left: 45%;
     margin-top: 10px;
 }
 .reviews-text{
@@ -468,11 +466,9 @@
     font-size: 17px;
     line-height: 21px;
     color: #243042;
-    margin-left: 37%;
     margin-top: 30px;
 }
 .reviews-clider{
-    margin-left: 47%;
     margin-top: 30px;
 }
 .contact{
@@ -487,7 +483,6 @@
     line-height: 30px;
     letter-spacing: -2px;
     color: #FFFFFF;
-    margin-left: 41%;
     padding-bottom: 5px;
 }
 .contact-text{
@@ -495,14 +490,15 @@
     font-size: 17px;
     line-height: 21px;
     color: #FFFFFF;
-    margin-left: 25%;
     margin-top: 40px;
 }
 .contact-cards{
     display: flex;
     align-items: center;
     text-align: center;
-    margin-left: 25%;
+    justify-content: space-between;
+    margin-right: 420px;
+    margin-left: 400px;
 }
 .contact-card{
     padding-left: 50px;
@@ -522,13 +518,14 @@
     font-size: 22px;
     line-height: 30px;
     color: #FFFFFF;
-    margin-left: 38%;
     margin-top: 50px;
     margin-bottom: 40px;
 }
 .contact-cubmit{
     display: flex;
-    margin-left: 23%;
+}
+.cubnit{
+    margin: 0 calc(24%);
 }
 .contact-cubmitname{
     margin-right: 40px;
@@ -547,9 +544,8 @@
 }
 .contact-cubmitmessage{
     background: rgba(238, 238, 238, 0.85);
-    width: 745px;
+    width: 100%;
     height: 94px;
-    margin-left: 23%;
     margin-top: 40px;
     padding-left: 5px;
     border: 2px solid rgba(238, 238, 238, 0.85);
@@ -577,7 +573,7 @@
 .contact-buttomcard{
     position: relative;
     top: 110px;
-    left: 46%;
+    left: 0;
     font-weight: 700;
     font-size: 17px;
     line-height: 25px;
@@ -598,9 +594,12 @@
     margin-top: 220px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 40%;
+    padding-left: 0;
     padding-right: 40px;
     background-image: url(../img/плашка\ низ.png);
+}
+.footer-text{
+    text-align: center;
 }
 .contact-map{
     width: 100%;
@@ -812,7 +811,510 @@
         margin-left: 0;
     }
 } 
+.info-titles{
+    text-align: center;
+}
+.skills-TITLES{
+    text-align: center;
+}
+.keys-titles{
+    text-align: center;
+}
+.prise-titles{
+    text-align: center;
+}
+.prise-card{
+    text-align: center;
+}
+.statistics-titles{
+    text-align: center;
+}
+.reviews-titles{
+    text-align: center;
+}
+.reviews-photo{
+    text-align: center;
+}
+.reviews-text{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.reviews-company{
+    text-align: center;
+}
+.reviews-clider-img{
+    text-align: center;
+}
+.contact-titles{
+    text-align: center;
+}
+.contact-text{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact-subtitle{
+    text-align: center;
+}
+.contact-button{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.contact-buttomcard{
+    margin: 0 auto;
+}
+@media(max-width: 1300px){
+    .term-exactly{
+        margin-left: 1000px;
+    }
+    .cost-exactly{
+        margin-left: 1000px;
+    }
+    .contact-cards{
+        margin-left: 0;
+        margin-right: 30px;
+    }
+}
 @media(max-width: 1250px) {
+    .main-flex{
+        background-position: left 150% top 50px ;
+    }
+}
+@media(max-width: 1200px){
+    .term-exactly{
+        margin-left: 900px;
+    }
+    .cost-exactly{
+        margin-left: 900px;
+    }
+}
+@media(max-width: 1100px){
+    .skills-cards{
+        margin-left: 0;
+    }
+    .term-exactly{
+        margin-left: 800px;
+    }
+    .cost-exactly{
+        margin-left: 800px;
+    }
+    .main-flex{
+        background-position: left 200% top 50px ;
+    }
+}
+@media(max-width: 1000px){
+    .header-logo{
+        margin-left: 8%;
+        font-size: 19px;
+        margin-right: 15%;
+    }
+    .header-navigation{
+        display: flex;
+        margin-right: 300px;
+    }
+    .header-info{
+        font-size: 15px;
+    }
+    .header-list{
+        width: 100px;
+    }
+    .main-flex{
+        background-position: left 40% top 50px ;
+    }
+    .main-titles{
+        margin-left: 50%;
+        color: #fff;
+    }
+    .main-title{
+        margin-left: 90px;
+        color: #fff;
+        position: relative;
+        z-index: 1;
+    }
+    .main-title-subtitle{
+        color: #fff;
+        position: relative;
+        z-index: 2;
+    }
+    .main-subtitle{
+        margin-left: 40%;
+        color: #FFF;
+        position: relative;
+        z-index: 3;
+    }
+    .main-buttons{
+        margin-left: 60%;
+        background-color: transparent;
+        position: relative;
+        z-index: 43;
+    }
+    .main-button{
+        background-color: transparent;
+        border: 3px solid #fff;
+        color: #fff;
+        z-index: 1;
+    }
+    .main-button:hover{
+        border: 3px solid transparent;
+        background-color: white;
+        color: #000000;
+    }
+    .main{
+        position: relative;
+    }
+    .main-flex::after{
+        content: "";
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .skills-icon{
+        margin-left: 30%;
+    }
+    .skills-subtitle{
+        margin-left: 18%;
+    }
+    #CEO{
+        margin-left: 5%;
+    }
+    .skills-cards{
+        margin-left: 0;
+    }
+    .term-exactly{
+        margin-left: 700px;
+    }
+    .cost-exactly{
+        margin-left: 700px;
+    }
+}
+@media(max-width: 840px){
+    .main-titles{
+        margin-left: 25%;
+    }
+    .main-subtitle{
+        margin-left: 17%;
+    }
+    .main-buttons{
+        margin-left: 35%;
+    }
+}
+@media(max-width: 900px){
+    .header-logo{
+        margin-left: 8%;
+        font-size: 19px;
+        margin-right: 10%;
+    }
+    .skills-TITLES{
+        margin-bottom: 50px;
+    }
+    .header-list{
+        width: 84px;
+    }
+    .skills-cards{
+        display: block;
+        text-align: center;
+    }
+    .skills-card{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .skills-icon{
+        margin-left: 0;
+    }
+    .skills-subtitle{
+        margin-left: 0;
+    }
+    #CEO{
+        margin-left: 0;
+    }
+    .term-exactly{
+        margin-left: 600px;
+    }
+    .cost-exactly{
+        margin-left: 600px;
+    }
+}
+@media(max-width: 800px){
+    .term-exactly{
+        margin-left: 500px;
+    }
+    .cost-exactly{
+        margin-left: 500px;
+    }
+}
+@media(max-width: 750px){
+    .keys-client{
+        font-size: 19px;
+    }
+    .keys-company{
+        font-size: 15px;
+    }
+    .keys-website{
+        font-size: 19px;
+    }
+    .keys-a{
+        font-size: 15px;
+    }
+    .keys-button{
+        font-size: 19px;
+    }
+    .keys-subtitle{
+        font-size: 19px;
+    }
+    .keys-details{
+        font-size: 15px;
+    }
+}
+@media(max-width: 700px){
+    .term-exactly{
+        margin-left: 400px;
+    }
+    .cost-exactly{
+        margin-left: 400px;
+    }
+    .header-navigation{
+        display: none;
+        position: absolute;
+        left: 86%;
+        top: 60px;
+        z-index: 1000;
+        border-radius: 10px;
+    }
+    .header-list{
+        border-radius: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-right: 10px;
+        width: 130px;
+    }   
+    .header-navigation li a:hover{
+        color: white;
+        transition: all 0.1s;
+    }
+
+    .header-list:hover{
+        transform: scale(1, 1);
+        transition: 0.1s;
+        background: #1f2630;
+
+    }
+    .burger{
+        position: absolute;
+        left: 90%;
+    }
+    .bureger-nav{
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin-top: 2px;
+    }
+    .header{
+        position: relative;
+    }
+    .is-open{
+        display: block;
+        background-color: #2A3E51;
+    }
+    .header-navigation li:nth-child(1){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(2){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(3){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(4){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(5){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(6){
+        animation-delay: 0.0001s;
+    }
+}
+@media(max-width: 650px){
+    .contact-cubmit{
+        display: block;
+    }
+    .cubnit{
+        margin: 0 calc(20%);
+    }
+    
+    .contact-cubmitname{
+        margin-right: 40px;
+        width: 100%;
+        height: 34px;
+        background: rgba(238, 238, 238, 0.85);
+        padding-left: 20px;
+        border: 2px solid rgba(238, 238, 238, 0.85);
+        margin-bottom: 20px;
+    }
+    .contact-cubmitemail{
+        width: 100%;
+        height: 34px;
+        background: rgba(238, 238, 238, 0.85);
+        padding-left: 20px;
+        border: 2px solid rgba(238, 238, 238, 0.85);
+    }
+    .contact-cubmitmessage{
+        background: rgba(238, 238, 238, 0.85);
+        width: 100%;
+        height: 94px;
+        margin-top: 20px;
+        padding-left: 5px;
+        border: 2px solid rgba(238, 238, 238, 0.85);
+    
+    }
+}
+@media(max-width: 600px){
+    .term-exactly{
+        margin-left: 300px;
+    }
+    .cost-exactly{
+        margin-left: 300px;
+    }
+    .statistic-cards{
+        display: block;
+    }
+    .statistics-card{
+        margin-bottom: 50px;
+    }
+    .statistics{
+        margin-bottom: 400px;
+    }
+    .main-title{
+        font-size: 40px;
+        margin-left: 60px;
+    }
+    .main-title-subtitle{
+        font-size: 40px;
+    }
+    .main-titles{
+        margin-left: 30%;
+    }
+    .main-subtitle{
+        font-size: 19px;
+        margin-left: 13%;
+    }
+    .main-button{
+        font-size: 17px;
+    }
+    .main-buttons{
+        font-size: 17px;
+        margin-left: 35%;
+    }
+    .header-navigation{
+        left: 80%;
+    }
+}
+@media(max-width: 500px){
+    .term-exactly{
+        margin-left: 200px;
+    }
+    .cost-exactly{
+        margin-left: 200px;
+    }
+}
+@media(max-width: 380px){
+    .term-exactly{
+        margin-left: 150px;
+    }
+    .cost-exactly{
+        margin-left: 150px;
+    }
+}
+@media(max-width: 579px){
+    .keys-visit-info{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-card{
+        padding-left: 20px;
+    }
+    .contact-info{
+        font-size: 12px;
+    }
+    .keys-visit{
+        text-align: center;
+    }
+    .keys-button{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .keys-info{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .prise{
+        margin-top: 0;
+    }
+}
+@media(max-width: 550px){
+    .keys-photo{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+@media(max-width:550px) {
+    .main-titles{
+        margin-left: 20%;
+    }
+    .main-subtitle{
+        margin-left: 7%;
+    }
+    .main-buttons{
+        margin-left: 23%;
+    }
+}
+@media(max-width:500px) {
+    .main-titles{
+        margin-left: 17%;
+    }
+    .main-subtitle{
+        width: 300px;
+        margin-left: 17%;
+    }
+    .main-buttons{
+        margin-left: 20%;
+    }
+    .info-text{
+        width: 300px;
+    }
+}
+@media(max-width:415px) {
+    .main-titles{
+        margin-left: 10%;
+    }
+    .main-subtitle{
+        width: 300px;
+        margin-left: 10%;
+    }
+    .main-buttons{
+        margin-left: 15%;
+    }
+}@media(max-width:367px) {
+    .main-titles{
+        margin-left: 7%;
+    }
+    .main-subtitle{
+        width: 300px;
+        margin-left: 7%;
+    }
+    .main-buttons{
+        margin-left: 10%;
+    }
+}
+/*@media(max-width: 1250px) {
     .keys-text{
         margin-left: 15%;
     }
