@@ -5,6 +5,10 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+body{
+    width: 10%;
+}
 *{
     font-family: 'Franklin Gothic Medium';
 }
@@ -29,7 +33,6 @@
 }
 .header-navigation{
     display: flex;
-    margin-right: 200px;
 }
 .header-list{
     list-style: none;
@@ -89,7 +92,6 @@
 .main-titles{
     margin-left: 200px;
     padding-top: 200px;
-    width: 500px;
 }
 .main-subtitle{
     margin-left: 150px;
@@ -529,14 +531,14 @@
 }
 .contact-cubmitname{
     margin-right: 40px;
-    width: 352px;
+    width: 50%;
     height: 34px;
     background: rgba(238, 238, 238, 0.85);
     padding-left: 20px;
     border: 2px solid rgba(238, 238, 238, 0.85);
 }
 .contact-cubmitemail{
-    width: 352px;
+    width: 50%;
     height: 34px;
     background: rgba(238, 238, 238, 0.85);
     padding-left: 20px;
@@ -669,6 +671,7 @@
     transition: all 0.5s;
 }
 .title__container{
+    width: 100%;
     animation: title__container 1s ;
 }
 @keyframes title__container{
@@ -864,6 +867,73 @@
 .contact-buttomcard{
     margin: 0 auto;
 }
+@media(max-width: 1920px){
+    .main-flex{
+        background-position: left 80% top 50px ;
+    }
+    .skills-cards{
+        justify-content: space-between;
+        margin-right: 50px;
+        align-items: center;
+    }
+    .keys-visit-info{
+        margin: 0 calc(20%);
+    }
+    .keys-visit{
+        margin-right: 100px;
+    }
+    .term-exactly{
+        margin-left: 1550px;
+    }
+    .cost-exactly{
+        margin-left: 1550px;
+    }
+}
+@media(max-width: 1800px){
+    .term-exactly{
+        margin-left: 1400px;
+    }
+    .cost-exactly{
+        margin-left: 1400px;
+    }
+}
+@media(max-width: 1700px){
+    .term-exactly{
+        margin-left: 1300px;
+    }
+    .cost-exactly{
+        margin-left: 1300px;
+    }
+}
+@media(max-width: 1600px){
+    .term-exactly{
+        margin-left: 1200px;
+    }
+    .cost-exactly{
+        margin-left: 1200px;
+    }
+}
+@media(max-width: 1500px){
+    .term-exactly{
+        margin-left: 1100px;
+    }
+    .cost-exactly{
+        margin-left: 1100px;
+    }
+}
+@media(max-width: 1440px){
+    .skills-cards{
+        justify-content: none;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .keys-visit-info{
+        margin-left: 10%;
+    }
+    .keys-visit{
+        margin-right: 0;
+    }
+}
 @media(max-width: 1300px){
     .term-exactly{
         margin-left: 1000px;
@@ -902,6 +972,9 @@
     .main-flex{
         background-position: left 200% top 50px ;
     }
+    #CEO{
+        margin-left: 5%;
+    }
 }
 @media(max-width: 1000px){
     .header-logo{
@@ -911,7 +984,6 @@
     }
     .header-navigation{
         display: flex;
-        margin-right: 300px;
     }
     .header-info{
         font-size: 15px;
@@ -923,7 +995,7 @@
         background-position: left 40% top 50px ;
     }
     .main-titles{
-        margin-left: 50%;
+
         color: #fff;
     }
     .main-title{
@@ -938,13 +1010,11 @@
         z-index: 2;
     }
     .main-subtitle{
-        margin-left: 40%;
         color: #FFF;
         position: relative;
         z-index: 3;
     }
     .main-buttons{
-        margin-left: 60%;
         background-color: transparent;
         position: relative;
         z-index: 43;
@@ -1079,10 +1149,11 @@
     .header-navigation{
         display: none;
         position: absolute;
-        left: 86%;
+        right: 0;
         top: 60px;
         z-index: 1000;
         border-radius: 10px;
+        width: 100px;
     }
     .header-list{
         border-radius: 10px;
@@ -1212,9 +1283,6 @@
         font-size: 17px;
         margin-left: 35%;
     }
-    .header-navigation{
-        left: 80%;
-    }
 }
 @media(max-width: 500px){
     .term-exactly{
@@ -1222,6 +1290,9 @@
     }
     .cost-exactly{
         margin-left: 200px;
+    }
+    .keys-text{
+        width: 90%;
     }
 }
 @media(max-width: 380px){
