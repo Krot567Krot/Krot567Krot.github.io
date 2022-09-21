@@ -904,6 +904,11 @@ body{
 }
 
 @media(max-width: 1440px){
+    .contact-cards{
+        margin-left: 0;
+        justify-content: center;
+        margin-right: 50px;
+    }
     .skills-cards{
         justify-content: none;
         margin-right: 0;
@@ -1235,6 +1240,9 @@ body{
     }
 }
 @media(max-width: 500px){
+    .contact-cards{
+        margin-right: 10px;
+    }
     .keys-text{
         width: 90%;
     }
