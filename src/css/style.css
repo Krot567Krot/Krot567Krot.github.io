@@ -50,7 +50,6 @@ body{
     line-height: 25px;
     color: #FFF;
     text-decoration: none;
-    margin-right: 30px;
 }
 .main-title-subtitle{
     
@@ -361,12 +360,12 @@ body{
 }
 .prise-term{
     display: flex;
-    margin-left: 5%;
+    margin-left: 17%;
     margin-top: 40px;
 }
 .prise-cost{
     display: flex;
-    margin-left: 5%;
+    margin-left: 17%;
     margin-top: 25px;
 }
 .term-time{
@@ -868,8 +867,16 @@ body{
     margin: 0 auto;
 }
 @media(max-width: 1920px){
+    .prise{
+        margin: 0 auto;
+    }
+    .prise-card{
+        margin: 0 auto;
+        max-width: 70%;
+    }
     .main-flex{
-        background-position: left 80% top 50px ;
+        background-position: left 90% top 50px ;
+        margin-left: 200px;
     }
     .skills-cards{
         justify-content: space-between;
@@ -883,44 +890,19 @@ body{
         margin-right: 100px;
     }
     .term-exactly{
-        margin-left: 1550px;
+        margin-left: 67%;
     }
     .cost-exactly{
-        margin-left: 1550px;
-    }
-}
-@media(max-width: 1800px){
-    .term-exactly{
-        margin-left: 1400px;
-    }
-    .cost-exactly{
-        margin-left: 1400px;
+        margin-left: 67%;
     }
 }
 @media(max-width: 1700px){
-    .term-exactly{
-        margin-left: 1300px;
-    }
-    .cost-exactly{
-        margin-left: 1300px;
+    .main-flex{
+        background-position: left 80% top 50px ;
+        margin-left: 0;
     }
 }
-@media(max-width: 1600px){
-    .term-exactly{
-        margin-left: 1200px;
-    }
-    .cost-exactly{
-        margin-left: 1200px;
-    }
-}
-@media(max-width: 1500px){
-    .term-exactly{
-        margin-left: 1100px;
-    }
-    .cost-exactly{
-        margin-left: 1100px;
-    }
-}
+
 @media(max-width: 1440px){
     .skills-cards{
         justify-content: none;
@@ -934,40 +916,22 @@ body{
         margin-right: 0;
     }
 }
-@media(max-width: 1300px){
-    .term-exactly{
-        margin-left: 1000px;
-    }
-    .cost-exactly{
-        margin-left: 1000px;
-    }
-    .contact-cards{
-        margin-left: 0;
-        margin-right: 30px;
-    }
-}
 @media(max-width: 1250px) {
     .main-flex{
         background-position: left 150% top 50px ;
     }
 }
-@media(max-width: 1200px){
+@media(max-width:1200px){
     .term-exactly{
-        margin-left: 900px;
+        margin-left: 64%;
     }
     .cost-exactly{
-        margin-left: 900px;
+        margin-left: 64%;
     }
 }
 @media(max-width: 1100px){
     .skills-cards{
         margin-left: 0;
-    }
-    .term-exactly{
-        margin-left: 800px;
-    }
-    .cost-exactly{
-        margin-left: 800px;
     }
     .main-flex{
         background-position: left 200% top 50px ;
@@ -1055,10 +1019,10 @@ body{
         margin-left: 0;
     }
     .term-exactly{
-        margin-left: 700px;
+        margin-left: 60%;
     }
     .cost-exactly{
-        margin-left: 700px;
+        margin-left: 60%;
     }
 }
 @media(max-width: 840px){
@@ -1101,19 +1065,13 @@ body{
     #CEO{
         margin-left: 0;
     }
-    .term-exactly{
-        margin-left: 600px;
-    }
-    .cost-exactly{
-        margin-left: 600px;
-    }
 }
 @media(max-width: 800px){
     .term-exactly{
-        margin-left: 500px;
+        margin-left: 55%;
     }
     .cost-exactly{
-        margin-left: 500px;
+        margin-left: 55%;
     }
 }
 @media(max-width: 750px){
@@ -1140,12 +1098,6 @@ body{
     }
 }
 @media(max-width: 700px){
-    .term-exactly{
-        margin-left: 400px;
-    }
-    .cost-exactly{
-        margin-left: 400px;
-    }
     .header-navigation{
         display: none;
         position: absolute;
@@ -1162,8 +1114,6 @@ body{
         padding-top: 10px;
         margin-top: 10px;
         padding-left: 20px;
-        padding-right: 10px;
-        width: 130px;
     }   
     .header-navigation li a:hover{
         color: white;
@@ -1248,10 +1198,10 @@ body{
 }
 @media(max-width: 600px){
     .term-exactly{
-        margin-left: 300px;
+        margin-left: 50%;
     }
     .cost-exactly{
-        margin-left: 300px;
+        margin-left: 50%;
     }
     .statistic-cards{
         display: block;
@@ -1285,24 +1235,17 @@ body{
     }
 }
 @media(max-width: 500px){
-    .term-exactly{
-        margin-left: 200px;
-    }
-    .cost-exactly{
-        margin-left: 200px;
-    }
     .keys-text{
         width: 90%;
     }
-}
-@media(max-width: 380px){
     .term-exactly{
-        margin-left: 150px;
+        margin-left: 45%;
     }
     .cost-exactly{
-        margin-left: 150px;
+        margin-left: 45%;
     }
 }
+
 @media(max-width: 579px){
     .keys-visit-info{
         display: block;
@@ -1373,7 +1316,22 @@ body{
     .main-buttons{
         margin-left: 15%;
     }
-}@media(max-width:367px) {
+    .term-exactly{
+        margin-left: 40%;
+    }
+    .cost-exactly{
+        margin-left: 40%;
+    }
+}
+@media(max-width:400px) {
+    .term-exactly{
+        margin-left: 35%;
+    }
+    .cost-exactly{
+        margin-left: 35%;
+    }
+}
+@media(max-width:367px) {
     .main-titles{
         margin-left: 7%;
     }
