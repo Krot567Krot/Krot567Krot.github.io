@@ -1,0 +1,46 @@
+
+.preload1{   
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #213;
+    margin-left: 697px;
+    margin-top: 300px;
+    animation: preload1 1s infinite ;
+}
+.preload2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #213;
+    margin-left: 750px;
+    animation: preload2 1s infinite;
+    animation-delay: 0.3s;
+    position: absolute;
+    top: 350px;
+    left: 8px;
+}
+
+@keyframes preload1{
+    0%{
+        margin-top: 300px;
+    }
+    50%{
+        margin-top: 400px;
+    }
+    100%{
+        margin-top: 300px;
+    }
+}
+
+@keyframes preload2{
+    0%{
+        margin-left: 750px;
+    }
+    50%{
+        margin-left: 650px;
+    }
+    100%{
+        margin-left: 750px;
+    }
+}
