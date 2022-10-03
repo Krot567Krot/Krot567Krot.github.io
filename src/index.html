@@ -7,29 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/preload.css">
     <script src="js/main.js" defer></script>
-    <script src="js/promt.js" defer></script>
-    
+    <script src="js/calculate.js" defer></script>
+    <script src="js/jquery-3.6.1.min.js" defer></script>
+
     <title>Document</title>
 </head>
 
 <body>
+
     <header>
         <nav class="header">
             <div class="header-logo">Чекменев Роман</div>
             <div class="header-menu">
                 <ul class="header-navigation is-open">
-                    <li class="header-list "><a class="header-info" href="">Обо мне</a>
+                    <li class="header-list "><a class="header-info" href="#info">Обо мне</a>
                     </li>
-                    <li class="header-list"><a class="header-info" href="">Услуги</a>
+                    <li class="header-list"><a class="header-info" href="#skills">Услуги</a>
                     </li>
-                    <li class="header-list"><a class="header-info" href="">Кейсы</a>
+                    <li class="header-list"><a class="header-info" href="#keys">Кейсы</a>
                     </li>
-                    <li class="header-list"><a class="header-info" href="">Прайс</a>
+                    <li class="header-list"><a class="header-info" href="#prise">Прайс</a>
                     </li>
-                    <li class="header-list"><a class="header-info" href="">Отзывы</a>
+                    <li class="header-list"><a class="header-info" href="#reviews">Отзывы</a>
                     </li>
-                    <li class="header-list"><a class="header-info" href="">Контакты</a>
+                    <li class="header-list"><a class="header-info" href="#contact">Контакты</a>
                     </li>
                 </ul>
             </div>
@@ -40,7 +43,7 @@
             </a>
         </nav>
     </header>
-    <div class="main">
+    <div class="main" id="main">
         <div class="main-flex">
             <div class="title__container">
                 <div class="main-titles">
@@ -56,7 +59,7 @@
 
         </div>
     </div>
-    <div class="info">
+    <div class="info" id="info">
         <div class="info-titles">
             <h2 class="info-title ">ОБО МНЕ</h2>
             <img class="info-cherta " src="img/Черта заголовка.png" alt="">
@@ -74,7 +77,7 @@
             <div class="info-button">Скачать резюме</div>
         </div>
     </div>
-    <div class="skills">
+    <div class="skills" id="skills">
         <div class="skills-TITLES">
             <h2 class="skills-title ">ЧТО Я УМЕЮ</h2>
             <img class="info-cherta" src="img/Черта заголовка.png" alt="">
@@ -114,7 +117,7 @@
             </div>
         </div>
     </div>
-    <div class="keys">
+    <div class="keys" id="keys">
         <div class="keys-titles">
             <h2 class="keys-title ">КЕЙСЫ</h2>
             <img class="info-cherta" src="img/Черта заголовка.png" alt="">
@@ -152,26 +155,35 @@
             </div>
         </div>
     </div>
-    <div class="prise">
+    <div class="prise" id="prise">
         <div class="prise-titles">
             <h2 class="prise-title">Расчет стоимости</h2>
         </div>
         <div class="prise-card">
             <h3 class="prise-card-title">ТИП САЙТА</h3>
-            <select class="prise-card-select" name="" id="">
-                <option class="prise-card-option" value="">Выберите пункт...</option>
+            <select id="select1" class="prise-card-select" name="">
+                <option class="prise-card-option" value="0" days="0" selected disabled>Выберите пункт...</option>
+                <option class="prise-card-option" value="1000" days="1">Сайт-визитка</option>
+                <option class="prise-card-option" value="2000" days="2">Корпоративный</option>
+                <option class="prise-card-option" value="3000" days="3">Интернет-магазин</option>
             </select>
         </div>
         <div class="prise-card">
             <h3 class="prise-card-title">ДИЗАЙН</h3>
-            <select class="prise-card-select" name="" id="">
-                <option class="prise-card-option" value="">Выберите пункт...</option>
+            <select id="select2" class="prise-card-select" name="">
+                <option class="prise-card-option" value="0" days="0" selected disabled>Выберите пункт...</option>
+                <option class="prise-card-option" value="1000" days="1">Шаблонный</option>
+                <option class="prise-card-option" value="2000" days="2">Уникальный</option>
+                <option class="prise-card-option" value="3000" days="3">WOW-Дизайн</option>
             </select>
         </div>
         <div class="prise-card">
             <h3 class="prise-card-title">АДАПТИВНОСТЬ</h3>
-            <select class="prise-card-select" name="" id="">
-                <option class="prise-card-option" value="">Выберите пункт...</option>
+            <select id="select3" class="prise-card-select" name="">
+                <option class="prise-card-option" value="0" days="0" selected disabled>Выберите пункт...</option>
+                <option class="prise-card-option" value="1000" days="1">Только Пк</option>
+                <option class="prise-card-option" value="2000" days="2">Только мобильный</option>
+                <option class="prise-card-option" value="3000" days="3">Мобильный + Пк</option>
             </select>
         </div>
         <div class="prise-term">
@@ -183,7 +195,7 @@
             <div class="cost-exactly">0</div>
         </div>
     </div>
-    <div class="statistics">
+    <div class="statistics" id="statistics">
         <div class="statistics-titles">
             <h2 class="statistics-title ">НЕМНОГО СТАТИСТИКИ</h2>
             <img class="info-cherta" src="img/Черта заголовка.png" alt="">
@@ -213,7 +225,7 @@
         </div>
 
     </div>
-    <div class="reviews">
+    <div class="reviews" id="reviews">
         <div class="reviews-titles">
             <h2 class="reviews-title">ОТЗЫВЫ</h2>
             <img class="info-cherta" src="img/Черта заголовка.png" alt="">
@@ -228,7 +240,7 @@
         </div>
         <div class="reviews-clider-img"><img class="reviews-clider" src="img/точки.png" alt=""></div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="contact-titles">
             <h2 class="contact-title">МОИ КОНТАКТЫ</h2>
             <img class="info-cherta" src="img/Черта заголовка.png" alt="">
@@ -266,7 +278,6 @@
     <div class="footer">
         <div class="footer-text">Copyright © 2021 Андрей Браун. Design by Web</div>
     </div>
-
 
 </body>
 

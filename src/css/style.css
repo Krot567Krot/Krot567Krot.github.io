@@ -20,6 +20,7 @@ body{
     justify-content: space-between;
     height: 62px;
     margin: 0;
+    position: fixed;
 
 }
 .header-logo{
@@ -1350,6 +1351,25 @@ body{
     .main-buttons{
         margin-left: 10%;
     }
+}
+.info-titles{
+    padding-top: 25px;
+}
+.skills-TITLES{
+    padding-top: 0.1px;
+}
+.keys-titles{
+    padding-top: 1px;
+}
+.prise-titles{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.reviews-titles{
+    padding-top: 0.1px;
+}
+.contact-titles{
+    padding-top: 0.1px;
 }
 /*@media(max-width: 1250px) {
     .keys-text{
