@@ -21,6 +21,7 @@ body{
     height: 62px;
     margin: 0;
     position: fixed;
+    z-index: 234324235243543;
 
 }
 .header-logo{
@@ -251,9 +252,11 @@ body{
     margin-top: 20px;
 }
 .keys-photo{
-    margin-left: 10%;
+    width: 100%;
     margin-bottom: 30px;
-    width: 80%;
+}
+.fotorama{
+    margin-left: 10%;
 }
 .keys-visit-info{
     display: flex;
@@ -945,6 +948,7 @@ body{
     #CEO{
         margin-left: 5%;
     }
+
 }
 @media(max-width: 1000px){
     .header-logo{
@@ -1371,6 +1375,10 @@ body{
 .contact-titles{
     padding-top: 0.1px;
 }
+.reviews{
+    margin-bottom: 10px;
+}
+
 /*@media(max-width: 1250px) {
     .keys-text{
         margin-left: 15%;

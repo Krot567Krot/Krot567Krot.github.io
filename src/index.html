@@ -7,16 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <link rel="stylesheet" href="css/preload.css">
-    <script src="js/main.js" defer></script>
-    <script src="js/calculate.js" defer></script>
-    <script src="js/jquery-3.6.1.min.js" defer></script>
 
     <title>Document</title>
 </head>
 
 <body>
-
+    <div class="preloads">
+        <div class="preload1"></div>
+        <div class="preload2"></div>
+    </div>
     <header>
         <nav class="header">
             <div class="header-logo">Чекменев Роман</div>
@@ -124,33 +126,78 @@
         </div>
         <div class="keys-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare
             diamcoccodo nibh ante facilisis.</div>
-        <img class="keys-photo" src="img/кейсы.png" alt="">
-        <div class="keys-footer">
-            <div class="keys-visit-info">
-                <div class="keys-visit">
-                    <h3 class="keys-client">
-                        CLIENT:
-                    </h3>
-                    <div class="keys-company">
-                        Какая-то компания
+        <div class="fotorama" data-width="90%" data-height="1000px">>
+
+            <div class="fotorama1">
+                <img class="keys-photo" src="img/кейсы.png" alt="">
+                <div class="keys-footer">
+                    <div class="keys-visit-info">
+                        <div class="keys-visit">
+                            <h3 class="keys-client">
+                                CLIENT:
+                            </h3>
+                            <div class="keys-company">
+                                Какая-то компания
+                            </div>
+                            <h3 class="keys-website">
+                                WEBSITE:
+                            </h3>
+                            <div class="keys-a">
+                                http://www.somedomain.com
+                            </div>
+                            <h3 class="keys-button">
+                                VISIT LIVE SITE
+                            </h3>
+                        </div>
+                        <div class="keys-info">
+                            <h3 class="keys-subtitle">Название проекта</h3>
+                            <div class="keys-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute
+                                irure
+                                dolor
+                                in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                        </div>
                     </div>
-                    <h3 class="keys-website">
-                        WEBSITE:
-                    </h3>
-                    <div class="keys-a">
-                        http://www.somedomain.com
-                    </div>
-                    <h3 class="keys-button">
-                        VISIT LIVE SITE
-                    </h3>
                 </div>
-                <div class="keys-info">
-                    <h3 class="keys-subtitle">Название проекта</h3>
-                    <div class="keys-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do eiusmod
-                        tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure dolor
-                        in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+            </div>>
+            <div class="fotorama2">
+                <img class="keys-photo" src="img/кейсы.png" alt="">
+                <div class="keys-footer">
+                    <div class="keys-visit-info">
+                        <div class="keys-visit">
+                            <h3 class="keys-client">
+                                CLIENT:
+                            </h3>
+                            <div class="keys-company">
+                                Какая-то компания
+                            </div>
+                            <h3 class="keys-website">
+                                WEBSITE:
+                            </h3>
+                            <div class="keys-a">
+                                http://www.somedomain.com
+                            </div>
+                            <h3 class="keys-button">
+                                VISIT LIVE SITE
+                            </h3>
+                        </div>
+                        <div class="keys-info">
+                            <h3 class="keys-subtitle">Название проекта</h3>
+                            <div class="keys-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute
+                                irure
+                                dolor
+                                in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,28 +209,28 @@
         <div class="prise-card">
             <h3 class="prise-card-title">ТИП САЙТА</h3>
             <select id="select1" class="prise-card-select" name="">
-                <option class="prise-card-option" value="0" days="0" selected disabled>Выберите пункт...</option>
-                <option class="prise-card-option" value="1000" days="1">Сайт-визитка</option>
-                <option class="prise-card-option" value="2000" days="2">Корпоративный</option>
-                <option class="prise-card-option" value="3000" days="3">Интернет-магазин</option>
+                <option class="prise-card-option" days="0" value="0" selected disabled>Выберите пункт...</option>
+                <option class="prise-card-option" days="1" value="1000">Сайт-визитка</option>
+                <option class="prise-card-option" days="2" value="2000">Корпоративный</option>
+                <option class="prise-card-option" days="3" value="3000">Интернет-магазин</option>
             </select>
         </div>
         <div class="prise-card">
             <h3 class="prise-card-title">ДИЗАЙН</h3>
             <select id="select2" class="prise-card-select" name="">
-                <option class="prise-card-option" value="0" days="0" selected disabled>Выберите пункт...</option>
-                <option class="prise-card-option" value="1000" days="1">Шаблонный</option>
-                <option class="prise-card-option" value="2000" days="2">Уникальный</option>
-                <option class="prise-card-option" value="3000" days="3">WOW-Дизайн</option>
+                <option class="prise-card-option" days="0" value="0" selected disabled>Выберите пункт...</option>
+                <option class="prise-card-option" days="1" value="1000">Шаблонный</option>
+                <option class="prise-card-option" days="2" value="2000">Уникальный</option>
+                <option class="prise-card-option" days="3" value="3000">WOW-Дизайн</option>
             </select>
         </div>
         <div class="prise-card">
             <h3 class="prise-card-title">АДАПТИВНОСТЬ</h3>
             <select id="select3" class="prise-card-select" name="">
-                <option class="prise-card-option" value="0" days="0" selected disabled>Выберите пункт...</option>
-                <option class="prise-card-option" value="1000" days="1">Только Пк</option>
-                <option class="prise-card-option" value="2000" days="2">Только мобильный</option>
-                <option class="prise-card-option" value="3000" days="3">Мобильный + Пк</option>
+                <option class="prise-card-option" days="0" value="0" selected disabled>Выберите пункт...</option>
+                <option class="prise-card-option" days="1" value="1000">Только Пк</option>
+                <option class="prise-card-option" days="2" value="2000">Только мобильный</option>
+                <option class="prise-card-option" days="3" value="3000">Мобильный + Пк</option>
             </select>
         </div>
         <div class="prise-term">
@@ -204,41 +251,64 @@
         <div class="statistic-cards">
             <div class="statistics-card">
                 <div class="card-icon"><img src="img/smile.png" alt=""></div>
-                <h2 class="card-digit">120</h2>
+                <h2 id="card-digit1" class="card-digit">0</h2>
                 <div class="card-text">СЧАСТЛИВЫХ КЛИЕНТОВ</div>
             </div>
             <div class="statistics-card">
                 <div class="card-icon"><img src="img/programming.png" alt=""></div>
-                <h2 class="card-digit">4,600</h2>
+                <h2 id="card-digit2" class="card-digit">0</h2>
                 <div class="card-text">ЧАСОВ РАБОТЫ</div>
             </div>
             <div class="statistics-card">
                 <div class="card-icon"><img src="img/tick.png" alt=""></div>
-                <h2 class="card-digit">340</h2>
+                <h2 id="card-digit3" class="card-digit">0</h2>
                 <div class="card-text">ПРОЕКТОВ ЗАВЕРШЕНО</div>
             </div>
             <div class="statistics-card">
                 <div class="card-icon"><img src="img/kubok.png" alt=""></div>
-                <h2 class="card-digit">23</h2>
+                <h2 id="card-digit4" class="card-digit">0</h2>
                 <div class="card-text">НАГРАД ПОЛУЧЕНО</div>
             </div>
         </div>
 
     </div>
     <div class="reviews" id="reviews">
-        <div class="reviews-titles">
-            <h2 class="reviews-title">ОТЗЫВЫ</h2>
-            <img class="info-cherta" src="img/Черта заголовка.png" alt="">
+        <div class="fotorama" data-width="90%" data-height="400px">>
+
+            <div class="fotorama1">
+                <div class="reviews-titles">
+                    <h2 class="reviews-title">ОТЗЫВЫ</h2>
+                    <img class="info-cherta" src="img/Черта заголовка.png" alt="">
+                </div>
+                <div class="reviews-photo"><img class="reviews-icon" src="img/фотка отзывы.png" alt=""></div>
+                <div class="reviews-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo
+                    nec
+                    ornare diam. Sed commodo nibh ante <br> facilisis bibendum dolor feugiat at duis sed dapidus leo nec
+                    ornare
+                    diam.
+                </div>
+                <div class="reviews-company">
+                    <span style="font-weight: 700;">Михаил</span>, Ген директор ПАО “Газпром”.
+                </div>
+            </div>
+
+            <div class="fotorama2">
+                <div class="reviews-titles">
+                    <h2 class="reviews-title">ОТЗЫВЫ</h2>
+                    <img class="info-cherta" src="img/Черта заголовка.png" alt="">
+                </div>
+                <div class="reviews-photo"><img class="reviews-icon" src="img/фотка отзывы.png" alt=""></div>
+                <div class="reviews-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo
+                    nec
+                    ornare diam. Sed commodo nibh ante <br> facilisis bibendum dolor feugiat at duis sed dapidus leo nec
+                    ornare
+                    diam.
+                </div>
+                <div class="reviews-company">
+                    <span style="font-weight: 700;">Михаил</span>, Ген директор ПАО “Газпром”.
+                </div>
+            </div>
         </div>
-        <div class="reviews-photo"><img class="reviews-icon" src="img/фотка отзывы.png" alt=""></div>
-        <div class="reviews-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec
-            ornare diam. Sed commodo nibh ante <br> facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare
-            diam.
-        </div>
-        <div class="reviews-company">
-            <span style="font-weight: 700;">Михаил</span>, Ген директор ПАО “Газпром”.
-        </div>
-        <div class="reviews-clider-img"><img class="reviews-clider" src="img/точки.png" alt=""></div>
     </div>
     <div class="contact" id="contact">
         <div class="contact-titles">
@@ -279,6 +349,19 @@
         <div class="footer-text">Copyright © 2021 Андрей Браун. Design by Web</div>
     </div>
 
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <script src="js/calculate.js"></script>
+    <script src="js/PriseAnimate.js"></script>
+    <script src="js//AnchorLinks.js"></script>
 </body>
+
+
 
 </html>
