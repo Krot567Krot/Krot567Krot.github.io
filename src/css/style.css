@@ -21,7 +21,7 @@ body{
     height: 62px;
     margin: 0;
     position: fixed;
-    z-index: 234324235243543;
+    z-index: 234;
 
 }
 .header-logo{
@@ -1378,7 +1378,17 @@ body{
 .reviews{
     margin-bottom: 10px;
 }
-
+.main-buttona{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+.main-buttona:hover{
+    background-color: #2C384A;
+    color: #fff;
+    text-decoration: none;
+    text-transform: none;
+}
 /*@media(max-width: 1250px) {
     .keys-text{
         margin-left: 15%;
