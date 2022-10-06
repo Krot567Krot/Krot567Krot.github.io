@@ -58,12 +58,6 @@ function outNum4(num4, elem4) {
     },
         t4)
 }
-outNum(120, 'card-digit1')
-outNum2(4600, 'card-digit2')
-outNum3(23,  'card-digit3')
-outNum4(340, 'card-digit4')
-
-
 
 
 
@@ -72,7 +66,7 @@ $(document).ready(() => {
 
     let options = { threshold: [0.5] };
     let observer = new IntersectionObserver(onEntry, options);
-    elements = $('.card-digit')
+    elements = $('.card-text')
     elements.each((i, el) => {
         observer.observe(el);
     });
@@ -82,7 +76,12 @@ $(document).ready(() => {
 function onEntry(entry) {
     entry.forEach(change => {
         if (change.Intersecting) {
-            
+
+            outNum(120, 'card-digit1')
+            outNum2(4600, 'card-digit2')
+            outNum3(23, 'card-digit3')
+            outNum4(340, 'card-digit4')
+
         }
     });
 
