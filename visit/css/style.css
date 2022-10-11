@@ -1,0 +1,2044 @@
+@font-face {
+	font-family: 'Franklin Gothic Medium';
+	src: url('../fonts/framd.eot');
+	src: local('☺'), url('../fonts/framd.woff') format('woff'), url('../fonts/framd.ttf') format('truetype'), url('../fonts/framd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+    width: 10%;
+}
+*{
+    font-family: 'Franklin Gothic Medium';
+}
+.header{
+    width: 100%;
+    background-color: #2A3E51;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    margin: 0;
+    position: fixed;
+    z-index: 234;
+
+}
+.header-logo{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 25px;
+    color: #fff;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.header-navigation{
+    display: flex;
+}
+.header-list{
+    list-style: none;
+    color: #fff;
+    margin-right: 1%;
+    width: 100px;
+}
+.header-span{
+    color: #fff;
+}
+.header-info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #FFF;
+    text-decoration: none;
+}
+.main-title-subtitle{
+    
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 87px;
+    color: #2C384A;
+    margin-top: -10px;
+}
+.main-title{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 87px;
+    color: #2C384A;
+    margin-left: 60px;
+
+}
+.main-subtitle{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 20px;
+    color: #79818D;
+}
+.main-button{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    color: #6D7682;
+    background-color: #fff;
+    border: 3px solid #6D7682;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+.main{
+    background-image: url(../img/фон\ 1.png);
+    height: 700px;
+
+}
+.main-titles{
+    margin-left: 200px;
+    padding-top: 200px;
+}
+.main-subtitle{
+    margin-left: 150px;
+    width: 550px;
+    color: #79818D;
+}
+.main-buttons{
+    padding-top: 20px;
+    margin-left: 240px ;
+    width: 300px;
+}
+.main-button1{
+    padding-right: 20px;
+}
+.main-photo{
+    width: 700px;
+    height: 700px;
+    margin-left: 31px;
+}
+
+
+#main-button1{
+    margin-right: 20px;
+}
+.main-flex{
+    display: flex;
+    background-image: url(../img/Парень\ 1.png);
+    background-repeat: no-repeat;
+    background-position: left 600px top 50px ;
+    height: 700px;
+}
+.info-title{
+    /*margin-left: 44%;*/
+    padding-bottom: 5px;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    color: #263244;
+}
+.info-cherta{
+    width: 150px;
+    height: 6px;
+    margin-top: 10px;
+}
+.info-icon{
+    margin-top: 30px;
+    text-align: center;
+}
+.info-text{
+    width: 500px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    color: #3F495A;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+.info-p{
+    margin-bottom: 20px;
+}
+.info-download{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 3px solid #6F707E;
+    width: 180px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: #6F707E;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.info-button{
+    padding-left: 5px;
+}
+.info-download-icon{
+    margin-top: 6px;
+}
+.skills{
+    margin-top: 90px;
+    background-image: url(../img/что\ я\ умею\ фон.png)
+}
+.skills-title{
+    margin-top: 90px;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    color: #263244;
+    padding-bottom: 5px;
+}
+.skills-cards{
+    display: flex;
+    margin-left: 5%;
+}
+.skills-card{
+    margin-left: 30px;
+
+}
+.skills-icon{
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+.skills-subtitle{
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 20px;
+    color: #CF7600;
+}
+.skills-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #3F495A;
+    margin-right: 10px;
+}
+/*#CEO{
+    margin-left: 35px;
+}*/
+.skills-TITLES{
+    margin-bottom: 150px;
+}
+.keys-title{
+    margin-top: 90px;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    color: #263244;
+    padding-bottom: 5px;
+}
+.keys-text{
+    width: 500px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #3F495A;
+    margin-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.keys-photo{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.fotorama{
+    margin-left: 10%;
+}
+.keys-visit-info{
+    display: flex;
+    margin-left: 10%;
+}
+.keys-client{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 21px;
+    color: #384354;
+    margin-bottom: 10px;
+}
+.keys-company{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #3F495A;
+    margin-bottom: 10px;
+}
+.keys-website{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 21px;
+    color: #384354;
+    margin-bottom: 10px;
+}
+.keys-a{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #3F495A;
+    margin-bottom: 10px;
+}
+.keys-button{
+    font-weight: 400;
+    font-size: 20.8333px;
+    line-height: 21px;
+    color: #fff;
+    background-color: #63B5AE;
+    width: 200px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 3px solid #63B5AE;
+}
+.keys-subtitle{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 21px;
+    color: #384354;
+    margin-bottom: 10px;
+}
+.keys-details{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3F495A;
+}
+.keys-info{
+    margin-left: 25px;
+    width: 65%;
+}
+.prise{
+    margin-top: 30px;
+}
+.prise-title{
+    margin-top: 90px;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    color: #263244;
+    padding-bottom: 5px;
+}
+.prise-card{
+    margin-top: 20px;
+}
+.prise-card-title{
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 33px;
+    color: #1C2534;
+}
+.prise-card-select{
+    width: 95%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    background: #EEEEEE;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #737373;
+    border: 3px solid #EEEEEE;
+}
+.prise-card-option{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #737373;
+}
+.prise-term{
+    display: flex;
+    margin-left: 17%;
+    margin-top: 40px;
+}
+.prise-cost{
+    display: flex;
+    margin-left: 17%;
+    margin-top: 25px;
+}
+.term-time{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    color: #1C2534;
+    width: 120px;
+}
+.cost-time{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    color: #1C2534;
+    width: 120px;
+}
+.term-exactly{
+    margin-left: 1100px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #1C2534;
+}
+.cost-exactly{
+    margin-left: 1100px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #1C2534;
+}
+.statistics{
+    background-image: url(../img/фон\ статистика.png);
+    background-attachment: fixed;
+    height: 400px;
+}
+.statistics-title{
+    margin-top: 90px;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    color: #263244;
+    padding-bottom: 5px;
+}
+.statistic-cards{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.statistics-card{
+    margin-right: 50px;
+
+}
+.card-icon{
+    padding-bottom: 15px;
+}
+.card-digit{
+    font-weight: 400;
+    font-size: 37.5px;
+    line-height: 21px;
+    color: #323E4F;
+    padding-bottom: 20px;
+}
+.card-text{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #323E4F;
+}
+.reviews-title{
+    margin-top: 90px;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    color: #263244;
+    padding-bottom: 5px;
+}
+.reviews-icon{
+    margin-top: 10px;
+}
+.reviews-text{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #243042;
+    margin-top: 20px;
+}
+.reviews-company{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #243042;
+    margin-top: 30px;
+}
+.reviews-clider{
+    margin-top: 30px;
+}
+.contact{
+    background-image: url(../img/фон\ 3.png);
+    background-position: left 47%  bottom 15px;
+}
+.contact-title{
+    margin-top: 90px;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+.contact-text{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.contact-cards{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 420px;
+    margin-left: 400px;
+}
+.contact-card{
+    padding-left: 50px;
+}
+.contact-icon{
+    padding-top: 30px;
+}
+.contact-info{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.contact-subtitle{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.contact-cubmit{
+    display: flex;
+}
+.cubnit{
+    margin: 0 calc(24%);
+}
+.contact-cubmitname{
+    margin-right: 40px;
+    width: 50%;
+    height: 34px;
+    background: rgba(238, 238, 238, 0.85);
+    padding-left: 20px;
+    border: 2px solid rgba(238, 238, 238, 0.85);
+}
+.contact-cubmitemail{
+    width: 50%;
+    height: 34px;
+    background: rgba(238, 238, 238, 0.85);
+    padding-left: 20px;
+    border: 2px solid rgba(238, 238, 238, 0.85);
+}
+.contact-cubmitmessage{
+    background: rgba(238, 238, 238, 0.85);
+    width: 100%;
+    height: 94px;
+    margin-top: 40px;
+    padding-left: 5px;
+    border: 2px solid rgba(238, 238, 238, 0.85);
+
+}
+.contact-button{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 0px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    border: 3px solid #fff;
+    padding-top: 20px;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.contact-map{
+    position: absolute;
+    height: 270px;
+}
+.contact-buttomcard{
+    position: relative;
+    top: 110px;
+    left: 0;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #fff;
+    z-index: 3;
+    width: 120px;
+}
+.footer{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+    margin-top: 220px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 40px;
+    background-image: url(../img/плашка\ низ.png);
+}
+.footer-text{
+    text-align: center;
+}
+.contact-map{
+    width: 100%;
+}
+.header-list{
+    animation: menu 1s ease forwards;
+    opacity: 0;
+}
+.header-list:hover{
+    transform: scale(1.1, 1.1);
+}
+
+
+
+.header-navigation li a:hover{
+    color: #EA7800;
+    transition: all 0.5s;
+}
+.header-logo{
+    animation: comming 1s;
+}
+.header-navigation li:nth-child(1){
+    animation-delay: 0.5s;
+}
+.header-navigation li:nth-child(2){
+    animation-delay: 0.6s;
+}
+.header-navigation li:nth-child(3){
+    animation-delay: 0.7s;
+}
+.header-navigation li:nth-child(4){
+    animation-delay: 0.8s;
+}
+.header-navigation li:nth-child(5){
+    animation-delay: 0.9s;
+}
+.header-navigation li:nth-child(6){
+    animation-delay: 1s;
+}
+@keyframes comming{
+    0%{
+        opacity: 0;
+        margin-top: -80px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+@keyframes menu{
+    from{
+        opacity: 0;
+        margin-top: -80px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+.main-button:hover{
+    background-color: #2C384A;
+    color: #fff;
+    border: 3px solid #fff;
+    transition: all 0.5s;
+}
+.title__container{
+    width: 100%;
+    animation: title__container 1s ;
+}
+@keyframes title__container{
+    from{
+        margin-left: -500px;
+    }
+    to{
+        margin-left: 0;
+    }
+} 
+.info{
+    animation: info 1.5s;
+}
+@keyframes info{
+    from{
+        margin-left: -800px;
+    }
+    to{
+        margin-left: 0;
+    }
+} 
+.info-download:hover{
+    color: #fff;
+    background-color: #2C384A;
+    transition: all 0.5s;
+    border: 3px solid #fff;
+}
+.skills{
+    animation: skills-title 1.5s;
+}
+@keyframes skills-title{
+    from{
+        opacity: 0;
+        margin-left: -300px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 0;
+    }
+} 
+.keys{
+    animation: keys 1s;
+}
+@keyframes keys{
+    from{
+        opacity: 0;
+        margin-left: -300px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 0;
+    }
+} 
+.keys-button:hover{
+    color: #63B5AE;
+    background-color: #fff;
+    border: 3px solid #63B5AE;
+    transition: all 0.3s;
+}
+.prise{
+    animation:prise 1s;
+}
+@keyframes prise{
+    from{
+        opacity: 0;
+        margin-left: -300px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 0;
+    }
+} 
+.prise-card-select:hover{
+    border: 3px solid #5b5c5c;
+}
+.prise-card-select:active{
+    border: 3px solid #161616;
+}
+.statistics{
+    animation: statistics 1s;
+}
+@keyframes statistics{
+    from{
+        opacity: 0;
+        margin-left: -300px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 0;
+    }
+} 
+.reviews{
+    animation: reviews 2s;
+}
+@keyframes reviews{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} 
+.contact{
+    animation: contact 1s;
+}
+@keyframes contact{
+    from{
+        opacity: 0;
+        margin-left: -300px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 0;
+    }
+} 
+.contact-cubmitname:hover{
+    border: 2px solid  #002fff;
+}
+.contact-cubmitemail:hover{
+    border: 2px solid  #002fff;
+}
+.contact-cubmitmessage:hover{
+    border: 2px solid  #002fff;
+}
+.contact-button:hover{
+    color: #2C384A;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+.footer{
+    animation: footer 1s;
+}
+@keyframes footer{
+    from{
+        opacity: 0;
+        margin-left: -300px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 0;
+    }
+} 
+.info-titles{
+    text-align: center;
+}
+.skills-TITLES{
+    text-align: center;
+}
+.keys-titles{
+    text-align: center;
+}
+.prise-titles{
+    text-align: center;
+}
+.prise-card{
+    text-align: center;
+}
+.statistics-titles{
+    text-align: center;
+}
+.reviews-titles{
+    text-align: center;
+}
+.reviews-photo{
+    text-align: center;
+}
+.reviews-text{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.reviews-company{
+    text-align: center;
+}
+.reviews-clider-img{
+    text-align: center;
+}
+.contact-titles{
+    text-align: center;
+}
+.contact-text{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact-subtitle{
+    text-align: center;
+}
+.contact-button{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.contact-buttomcard{
+    margin: 0 auto;
+}
+@media(max-width: 1920px){
+    .prise{
+        margin: 0 auto;
+    }
+    .prise-card{
+        margin: 0 auto;
+        max-width: 70%;
+    }
+    .main-flex{
+        background-position: left 90% top 50px ;
+        margin-left: 200px;
+    }
+    .skills-cards{
+        justify-content: space-between;
+        margin-right: 50px;
+        align-items: center;
+    }
+    .keys-visit-info{
+        margin: 0 calc(20%);
+    }
+    .keys-visit{
+        margin-right: 100px;
+    }
+    .term-exactly{
+        margin-left: 67%;
+    }
+    .cost-exactly{
+        margin-left: 67%;
+    }
+}
+@media(max-width: 1700px){
+    .main-flex{
+        background-position: left 80% top 50px ;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 1440px){
+    .contact-cards{
+        margin-left: 0;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    .skills-cards{
+        justify-content: none;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .keys-visit-info{
+        margin-left: 10%;
+    }
+    .keys-visit{
+        margin-right: 0;
+    }
+}
+@media(max-width: 1250px) {
+    .main-flex{
+        background-position: left 150% top 50px ;
+    }
+}
+@media(max-width:1200px){
+    .term-exactly{
+        margin-left: 64%;
+    }
+    .cost-exactly{
+        margin-left: 64%;
+    }
+}
+@media(max-width: 1100px){
+    .skills-cards{
+        margin-left: 0;
+    }
+    .main-flex{
+        background-position: left 200% top 50px ;
+    }
+    #CEO{
+        margin-left: 5%;
+    }
+
+}
+@media(max-width: 1000px){
+    .header-logo{
+        margin-left: 8%;
+        font-size: 19px;
+        margin-right: 15%;
+    }
+    .header-navigation{
+        display: flex;
+    }
+    .header-info{
+        font-size: 15px;
+    }
+    .header-list{
+        width: 100px;
+    }
+    .main-flex{
+        background-position: left 40% top 50px ;
+    }
+    .main-titles{
+
+        color: #fff;
+    }
+    .main-title{
+        margin-left: 90px;
+        color: #fff;
+        position: relative;
+        z-index: 1;
+    }
+    .main-title-subtitle{
+        color: #fff;
+        position: relative;
+        z-index: 2;
+    }
+    .main-subtitle{
+        color: #FFF;
+        position: relative;
+        z-index: 3;
+    }
+    .main-buttons{
+        background-color: transparent;
+        position: relative;
+        z-index: 43;
+    }
+    .main-button{
+        background-color: transparent;
+        border: 3px solid #fff;
+        color: #fff;
+        z-index: 1;
+    }
+    .main-button:hover{
+        border: 3px solid transparent;
+        background-color: white;
+        color: #000000;
+    }
+    .main{
+        position: relative;
+    }
+    .main-flex::after{
+        content: "";
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .skills-icon{
+        margin-left: 30%;
+    }
+    .skills-subtitle{
+        margin-left: 18%;
+    }
+    #CEO{
+        margin-left: 5%;
+    }
+    .skills-cards{
+        margin-left: 0;
+    }
+    .term-exactly{
+        margin-left: 60%;
+    }
+    .cost-exactly{
+        margin-left: 60%;
+    }
+}
+@media(max-width: 840px){
+    .main-titles{
+        margin-left: 25%;
+    }
+    .main-subtitle{
+        margin-left: 17%;
+    }
+    .main-buttons{
+        margin-left: 35%;
+    }
+}
+@media(max-width: 900px){
+    .header-logo{
+        margin-left: 8%;
+        font-size: 19px;
+        margin-right: 10%;
+    }
+    .skills-TITLES{
+        margin-bottom: 50px;
+    }
+    .header-list{
+        width: 84px;
+    }
+    .skills-cards{
+        display: block;
+        text-align: center;
+    }
+    .skills-card{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .skills-icon{
+        margin-left: 0;
+    }
+    .skills-subtitle{
+        margin-left: 0;
+    }
+    #CEO{
+        margin-left: 0;
+    }
+}
+@media(max-width: 800px){
+    .term-exactly{
+        margin-left: 55%;
+    }
+    .cost-exactly{
+        margin-left: 55%;
+    }
+}
+@media(max-width: 750px){
+    .keys-client{
+        font-size: 19px;
+    }
+    .keys-company{
+        font-size: 15px;
+    }
+    .keys-website{
+        font-size: 19px;
+    }
+    .keys-a{
+        font-size: 15px;
+    }
+    .keys-button{
+        font-size: 19px;
+    }
+    .keys-subtitle{
+        font-size: 19px;
+    }
+    .keys-details{
+        font-size: 15px;
+    }
+}
+@media(max-width: 700px){
+    .header-navigation{
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        z-index: 1000;
+        border-radius: 10px;
+        width: 100px;
+    }
+    .header-list{
+        border-radius: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 10px;
+        padding-left: 20px;
+    }   
+    .header-navigation li a:hover{
+        color: white;
+        transition: all 0.1s;
+    }
+
+    .header-list:hover{
+        transform: scale(1, 1);
+        transition: 0.1s;
+        background: #1f2630;
+
+    }
+    .burger{
+        position: absolute;
+        left: 90%;
+    }
+    .bureger-nav{
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin-top: 2px;
+    }
+    .header{
+        position: relative;
+    }
+    .is-open{
+        display: block;
+        background-color: #2A3E51;
+    }
+    .header-navigation li:nth-child(1){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(2){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(3){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(4){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(5){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(6){
+        animation-delay: 0.0001s;
+    }
+}
+@media(max-width: 650px){
+    .contact-cubmit{
+        display: block;
+    }
+    .cubnit{
+        margin: 0 calc(20%);
+    }
+    
+    .contact-cubmitname{
+        margin-right: 40px;
+        width: 100%;
+        height: 34px;
+        background: rgba(238, 238, 238, 0.85);
+        padding-left: 20px;
+        border: 2px solid rgba(238, 238, 238, 0.85);
+        margin-bottom: 20px;
+    }
+    .contact-cubmitemail{
+        width: 100%;
+        height: 34px;
+        background: rgba(238, 238, 238, 0.85);
+        padding-left: 20px;
+        border: 2px solid rgba(238, 238, 238, 0.85);
+    }
+    .contact-cubmitmessage{
+        background: rgba(238, 238, 238, 0.85);
+        width: 100%;
+        height: 94px;
+        margin-top: 20px;
+        padding-left: 5px;
+        border: 2px solid rgba(238, 238, 238, 0.85);
+    
+    }
+}
+@media(max-width: 600px){
+    .term-exactly{
+        margin-left: 50%;
+    }
+    .cost-exactly{
+        margin-left: 50%;
+    }
+    .statistic-cards{
+        display: block;
+    }
+    .statistics-card{
+        margin-bottom: 50px;
+    }
+    .statistics{
+        margin-bottom: 400px;
+    }
+    .main-title{
+        font-size: 40px;
+        margin-left: 60px;
+    }
+    .main-title-subtitle{
+        font-size: 40px;
+    }
+    .main-titles{
+        margin-left: 30%;
+    }
+    .main-subtitle{
+        font-size: 19px;
+        margin-left: 13%;
+    }
+    .main-button{
+        font-size: 17px;
+    }
+    .main-buttons{
+        font-size: 17px;
+        margin-left: 35%;
+    }
+}
+@media(max-width: 500px){
+    .contact-cards{
+        margin-right: 10px;
+    }
+    .keys-text{
+        width: 90%;
+    }
+    .term-exactly{
+        margin-left: 45%;
+    }
+    .cost-exactly{
+        margin-left: 45%;
+    }
+}
+
+@media(max-width: 579px){
+    .keys-visit-info{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-card{
+        padding-left: 20px;
+    }
+    .contact-info{
+        font-size: 12px;
+    }
+    .keys-visit{
+        text-align: center;
+    }
+    .keys-button{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .keys-info{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .prise{
+        margin-top: 0;
+    }
+}
+@media(max-width: 550px){
+    .keys-photo{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+@media(max-width:550px) {
+    .main-titles{
+        margin-left: 20%;
+    }
+    .main-subtitle{
+        margin-left: 7%;
+    }
+    .main-buttons{
+        margin-left: 23%;
+    }
+}
+@media(max-width:500px) {
+    .main-titles{
+        margin-left: 17%;
+    }
+    .main-subtitle{
+        width: 300px;
+        margin-left: 17%;
+    }
+    .main-buttons{
+        margin-left: 20%;
+    }
+    .info-text{
+        width: 300px;
+    }
+}
+@media(max-width:415px) {
+    .main-titles{
+        margin-left: 10%;
+    }
+    .main-subtitle{
+        width: 300px;
+        margin-left: 10%;
+    }
+    .main-buttons{
+        margin-left: 15%;
+    }
+    .term-exactly{
+        margin-left: 40%;
+    }
+    .cost-exactly{
+        margin-left: 40%;
+    }
+}
+@media(max-width:400px) {
+    .term-exactly{
+        margin-left: 35%;
+    }
+    .cost-exactly{
+        margin-left: 35%;
+    }
+}
+@media(max-width:367px) {
+    .main-titles{
+        margin-left: 7%;
+    }
+    .main-subtitle{
+        width: 300px;
+        margin-left: 7%;
+    }
+    .main-buttons{
+        margin-left: 10%;
+    }
+}
+.info-titles{
+    padding-top: 25px;
+}
+.skills-TITLES{
+    padding-top: 0.1px;
+}
+.keys-titles{
+    padding-top: 1px;
+}
+.prise-titles{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.reviews-titles{
+    padding-top: 0.1px;
+}
+.contact-titles{
+    padding-top: 0.1px;
+}
+.reviews{
+    margin-bottom: 10px;
+}
+.main-buttona{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+.main-buttona:hover{
+    background-color: #2C384A;
+    color: #fff;
+    text-decoration: none;
+    text-transform: none;
+}
+.active{
+    color: #CF7600;
+}
+ol, ul{
+    padding-left: 0rem;
+}
+.modalwindow{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+.is-openmodalwindow{
+    display: block;
+}
+.modalwindowDialog{
+    border: 3px solid #CF7600;
+    max-width: 780px;
+    width: 95%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px 25px;
+}
+.modalwindow-title{
+    font-size: 25px;
+    color: #2C384A;
+}
+.modalwindow-close{
+    font-size: 25px;
+}
+.modalwindow-close:hover{
+    cursor: pointer;
+}
+.modalwindow-text{
+    font-size: 15px;
+    color: #2C384A;
+}
+.modalwindow-footer{
+    color: #2C384A;
+    font-size: 22px;
+    border: 3px solid #CF7600;
+    max-width: 16%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+.modalwindow-footer:hover{
+    background-color: #CF7600;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.modalwindow-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.modalwindow-text{
+    margin-bottom: 20px;
+}
+.contact-button{
+    cursor: pointer;
+}
+.contact-button{
+    display: block;
+    color: white;
+    background-color: transparent;
+}
+.contact-button:hover{
+    color: #2C384A;
+    background-color: #fff;
+}
+/*@media(max-width: 1250px) {
+    .keys-text{
+        margin-left: 15%;
+    }
+    .prise-card{
+        margin-left: 8%;
+    }
+    .prise-term{
+        margin-left: 8%;
+        width: 90%;
+    }
+    .prise-cost{
+        margin-left: 8%;
+        width: 90%;
+    }
+    .main-flex{
+        background-position: left 150% top 50px ;
+    }
+    .statistic-cards{
+        margin-left: 15%;
+    }
+}
+
+@media(max-width: 1100px) {
+    .info-text{
+        margin-left: 32%;
+    }
+    .skills-cards{
+        margin-left: 0;
+    }
+    .keys-text{
+        margin-left: 8%;
+    }
+    .contact-text{
+        margin-left: 20%;
+    }
+    .contact-cards{
+        margin-left: 20%;
+    }
+    .contact-cubmit{
+        margin-left: 17%;
+    }
+    .contact-cubmitmessage{
+        margin-left: 17%;
+    }
+    .statistic-cards{
+        margin-left: 13%;
+    }
+    .main-flex{
+        background-position: left 200% top 50px ;
+    }
+}
+@media(max-width: 1000px) {
+    .header-logo{
+        margin-left: 8%;
+        font-size: 19px;
+        margin-right: 15%;
+    }
+    .header-navigation{
+        display: flex;
+        margin-right: 300px;
+    }
+    .header-info{
+        font-size: 15px;
+    }
+    .header-list{
+        width: 100px;
+    }
+    .main-flex{
+        background-position: left 40% top 50px ;
+    }
+    .main-titles{
+        margin-left: 50%;
+        color: #fff;
+    }
+    .main-title{
+        margin-left: 90px;
+        color: #fff;
+        position: relative;
+        z-index: 1;
+    }
+    .main-title-subtitle{
+        color: #fff;
+        position: relative;
+        z-index: 2;
+    }
+    .main-subtitle{
+        margin-left: 40%;
+        color: #FFF;
+        position: relative;
+        z-index: 3;
+    }
+    .main-buttons{
+        margin-left: 60%;
+        background-color: transparent;
+        position: relative;
+        z-index: 43;
+    }
+    .main-button{
+        background-color: transparent;
+        border: 3px solid #fff;
+        color: #fff;
+        z-index: 1;
+    }
+    .main-button:hover{
+        border: 3px solid transparent;
+        background-color: white;
+        color: #000000;
+    }
+    .main{
+        position: relative;
+    }
+    .main-flex::after{
+        content: "";
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .info-text{
+        margin-left: 27%;
+    }
+    .skills-subtitle{
+        margin-left: 20%;
+        font-size: 17px;
+    }
+    .skills-text{
+        font-size: 15px;
+    }
+    .skills-icon{
+        margin-left: 30%;
+    }
+    .statistics-title{
+        margin-left: 35%;
+    }
+    .statistic-cards{
+        margin-left: 10%;
+    }
+    .contact-text{
+        margin-left: 22%;
+    }
+    .contact-cards{
+        margin-left: 17%;
+    }
+    .contact-cubmit{
+        margin-left: 14%;
+    }
+    .contact-cubmitmessage{
+        margin-left: 14%;
+    }
+    .footer-text{
+        margin-left: -10%;
+    }
+}
+@media(max-width: 900px) {
+    .header-logo{
+        margin-left: 8%;
+        font-size: 19px;
+        margin-right: 10%;
+    }
+    .header-list{
+        width: 84px;
+    }
+    .skills-cards{
+        display: block;
+    }
+    .contact-cubmit{
+        margin-left: 10%;
+    }
+    .contact-cubmitmessage{
+        margin-left: 10%;
+    }
+    .skills-icon{
+        padding-left: 40px;
+        width: 400px;
+    }
+    .skills-subtitle{
+        padding-left: 70px;
+        width: 400px;
+    }
+    .skills-text{
+        width: 400px;
+    }
+    #CEO{
+        padding-left: 85px;
+    }
+    .skills-TITLES{
+        margin-bottom: 25px;
+    }
+    .skills{
+        background-image: url(../img/что\ я\ умею\ фон.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .skills-card{
+        margin-top: 30px;
+        width: 400px;
+        margin-left: 30%;
+    }
+    .contact-text{
+        margin-left: 13%;
+    }
+}
+@media(max-width: 870px){
+    .contact-cubmit{
+        margin-left: 55px;
+    }
+    .contact-cubmitmessage{
+        margin-left: 55px;
+    }
+}
+@media(max-width: 840px){
+    .contact-cubmit{
+        display: block;
+    }
+    .contact-cubmitname{
+        display: block;
+        width: 95%;
+    }
+    .contact-cubmitemail{
+        display: block;
+        margin-top: 30px;
+        width: 95%;
+    }
+    .contact-cubmitmessage{
+        width: 89%;
+    }
+    .contact-cards{
+        margin-left: 10%;
+    }
+    
+    .contact{
+        background-position: left 47%  bottom 45px;
+    }
+    .main-titles{
+        margin-left: 25%;
+    }
+    .main-subtitle{
+        margin-left: 17%;
+    }
+    .main-buttons{
+        margin-left: 35%;
+    }
+}
+@media(max-width: 700px){
+    .header-navigation{
+        display: none;
+        position: absolute;
+        left: 86%;
+        top: 60px;
+        z-index: 1000;
+        border-radius: 10px;
+    }
+    .header-list{
+        border-radius: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-right: 10px;
+        width: 130px;
+    }   
+    .header-navigation li a:hover{
+        color: white;
+        transition: all 0.1s;
+    }
+
+    .header-list:hover{
+        transform: scale(1, 1);
+        transition: 0.1s;
+        background: #1f2630;
+
+    }
+    .burger{
+        position: absolute;
+        left: 90%;
+    }
+    .bureger-nav{
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin-top: 2px;
+    }
+    .header{
+        position: relative;
+    }
+    .is-open{
+        display: block;
+        background-color: #2A3E51;
+    }
+    .header-navigation li:nth-child(1){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(2){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(3){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(4){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(5){
+        animation-delay: 0.0001s;
+    }
+    .header-navigation li:nth-child(6){
+        animation-delay: 0.0001s;
+    }
+    .skills-cards{
+        margin-left: -15%;
+    }
+    .info-cherta{
+        margin-left: 37%;
+    }
+    .info-title{
+        margin-left: 38%;
+    }
+    .info-icon{
+        margin-left: 33%;
+    }
+    .info-text{
+        margin-left: 20%;
+    }
+    .info-download{
+        margin-left: 33%;
+    }
+    .skills-title{
+        margin-left: 36%;
+    }
+    .keys-title{
+        margin-left: 39%;
+    }
+    .prise-title{
+        margin-left: 32%;
+    }
+    .statistics-title{
+        margin-left: 26%;
+    }
+    .statistic-cards{
+        margin-left: 0%;
+    }
+    .reviews-title{
+        margin-left: 37%;
+    }
+    .reviews-icon{
+        margin-left: 40%;
+    }
+    .reviews-company{
+        margin-left: 32%;
+    }
+    .reviews-clider{
+        margin-left: 44%;
+    }
+    .contact{
+        background-position: left 49%  bottom 75px
+    }
+    .contact-title{
+        margin-left: 34%;
+    }
+    .contact-text{
+        margin-left: 3%;
+    }
+    .contact-cards{
+        margin-left: -5%;
+    }
+    .contact-cubmitmessage{
+        width: 86%;
+    }
+    .contact-subtitle{
+        margin-left: 26%;
+    }
+    .contact-button{
+        margin-left: 39%;
+    }
+    .footer-text{
+        margin-left: -25%;
+    }
+    .contact-buttomcard{
+        left: 35%;
+    }
+
+}
+@media(max-width: 600px) {
+    .main-title{
+        font-size: 40px;
+        margin-left: 60px;
+    }
+    .main-title-subtitle{
+        font-size: 40px;
+    }
+    .main-titles{
+        margin-left: 30%;
+    }
+    .main-subtitle{
+        font-size: 19px;
+        margin-left: 13%;
+    }
+    .main-button{
+        font-size: 17px;
+    }
+    .main-buttons{
+        font-size: 17px;
+        margin-left: 35%;
+    }
+    .header-navigation{
+        left: 80%;
+    }
+    .info-text{
+        margin-left: 8%;
+    }
+    .keys-client{
+        font-size: 20px;
+    }
+    .keys-company{
+        font-size: 14px;
+    }
+    .keys-website{
+        font-size: 20px;
+    }
+    .keys-a{
+        font-size: 14px;
+    }
+    .keys-subtitle{
+        font-size: 20px;
+    }
+    .keys-details{
+        font-size: 14px;
+    }
+    .cost-exactly{
+        margin-left: 77%;
+    }
+
+}
+@media(max-width: 550px) {
+    .prise-card-title{
+        font-size: 20px;}
+
+    .prise-title{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .skills-cards{
+        margin-left: -26%;
+    }
+    .keys-visit-info{
+        display: block;
+    }
+    .keys-visit{
+        margin-left: 15%;
+    }
+    .keys-info{
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    .prise-title{
+        margin-left: 20%;
+    }
+    .cost-exactly{
+        margin-left: 75%;
+    }
+    .statistics-title{
+        margin-left: 25%;
+        font-size: 30px;
+    }
+    .card-digit{
+        font-size: 25px;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+}
+@media(max-width: 500px){
+    .cost-exactly{
+        margin-left: 73%;
+    }
+    .statistic-cards{
+        display: block;
+        margin-left: 10%;
+    }
+    .statistics-card{
+        margin-bottom: 30px;
+    }
+    .statistics{
+        margin-bottom: 320px;
+    }
+    .reviews-company{
+        margin-left: 20%;
+    }
+    .contact-title{
+        margin-left: 30%;
+    }
+    .contact-cubmitmessage{
+        width: 85%;
+    }
+    .info-cherta{
+        margin-left: 30%;
+    }
+    .main-titles{
+        margin-left: 10%;
+    }
+    .main-subtitle{
+        margin-left: 0;
+    }
+    .info-text{
+        width: 300px;
+        margin-left: 15%;
+    }
+    .info-title{
+        margin-left: 28%;
+    }
+    .info-icon{
+        margin-left: 18%;
+    }
+    .contact-info{
+        font-size: 13px;
+    }
+    .contact-card{
+        padding-left: 30px;
+    }
+    .contact-cards{
+        margin-left: 5%;
+    }
+}
+@media(max-width: 450px){
+    .cost-exactly{
+        margin-left: 69%;
+    }
+    .contact-cubmitmessage{
+        width: 82%;
+    }
+    .info-title{
+        margin-left: 31%;
+    }
+    .skills-title{
+        margin-left: 30%;
+    }
+    .header-navigation{
+        left: 75%;
+    }
+    .main-subtitle{
+        margin-left: 13%;
+        width: 300px;
+    }
+    .main-buttons{
+        margin-left: 10%;
+    }
+}
+@media(max-width: 400px){
+    .skills-cards{
+        margin-left: -46%;
+    }
+    .cost-exactly{
+        margin-left: 61%;
+    }
+    .term-exactly{
+        margin-left: 60%;
+    }
+    .contact-cubmitmessage{
+        width: 79%;
+    }
+    .contact-subtitle{
+        margin-left: 20%;
+    }
+    .contact-cards{
+        margin-left: 1%;
+    }
+    .contact-card{
+        padding-left: 25px;
+    }
+    .contact-title{
+        margin-left: 20%;
+    }
+}
