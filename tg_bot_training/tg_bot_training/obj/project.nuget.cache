@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RfLXLFx04PwbTYGKCpYTXcpBusa10XYysfzg5SiGrxmQ0V1DAxl/MSlMSeeFUPDugnrA+GoO8RPzQfhAVuhXrQ==",
+  "success": true,
+  "projectFilePath": "C:\\jopa tankera\\vsProject\\tg_bot_training\\tg_bot_training\\tg_bot_training.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\telegram.bot\\19.0.0\\telegram.bot.19.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
